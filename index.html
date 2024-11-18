@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fordy's Christmas Wishlist</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #00203F;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    /* Snowflake Animation */
+    @keyframes snow {
+      0% { transform: translateY(0); opacity: 1; }
+      100% { transform: translateY(100vh); opacity: 0; }
+    }
+
+    /* Snowflakes */
+    .snowflake {
+      position: absolute;
+      top: -10px;
+      color: #fff;
+      font-size: 1em;
+      opacity: 0.8;
+      animation: snow 10s linear infinite;
+    }
+
+    /* Multiple snowflakes with random positioning and delays */
+    .snowflake:nth-child(1) { left: 5%; animation-delay: 0s; }
+    .snowflake:nth-child(2) { left: 10%; animation-delay: 1s; }
+    .snowflake:nth-child(3) { left: 20%; animation-delay: 2s; }
+    .snowflake:nth-child(4) { left: 30%; animation-delay: 3s; }
+    .snowflake:nth-child(5) { left: 40%; animation-delay: 4s; }
+    .snowflake:nth-child(6) { left: 50%; animation-delay: 5s; }
+    .snowflake:nth-child(7) { left: 60%; animation-delay: 6s; }
+    .snowflake:nth-child(8) { left: 70%; animation-delay: 7s; }
+    .snowflake:nth-child(9) { left: 80%; animation-delay: 8s; }
+    .snowflake:nth-child(10) { left: 90%; animation-delay: 9s; }
+
+    /* Christmas Lights Effect */
+    .christmas-lights {
+      display: inline-block;
+      font-size: 2.5em;
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .christmas-lights span {
+      animation: twinkle 1.5s infinite;
+    }
+
+    .christmas-lights span:nth-child(1) { color: red; animation-delay: 0s; }
+    .christmas-lights span:nth-child(2) { color: green; animation-delay: 0.2s; }
+    .christmas-lights span:nth-child(3) { color: blue; animation-delay: 0.4s; }
+    .christmas-lights span:nth-child(4) { color: yellow; animation-delay: 0.6s; }
+    .christmas-lights span:nth-child(5) { color: orange; animation-delay: 0.8s; }
+    .christmas-lights span:nth-child(6) { color: purple; animation-delay: 1s; }
+    .christmas-lights span:nth-child(7) { color: cyan; animation-delay: 1.2s; }
+    .christmas-lights span:nth-child(8) { color: red; animation-delay: 1.4s; }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.5; }
+      50% { opacity: 1; }
+    }
+
+    /* Content container */
+    .container {
+      text-align: center;
+      padding: 50px;
+    }
+
+    /* Product listing */
+    .product {
+      display: inline-block;
+      width: 200px;
+      margin: 20px;
+      padding: 15px;
+      background-color: #ffffff20;
+      border-radius: 10px;
+    }
+
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
+
+    .product p {
+      color: #aad8d3;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #ff5a5f;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #ff6a6f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Snowflakes -->
+  <div class="snowflakes">
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❅</div>
+    <div class="snowflake">❆</div>
+    <div class="snowflake">❄</div>
+  </div>
+
+  <!-- Website Content -->
+  <div class="container">
+    <div class="christmas-lights">
+      <!-- Each letter wrapped in a <span> for individual animation -->
+      <span>M</span>
+      <span>a</span>
+      <span>a</span>
+      <span>y</span>
+      <span>o</span>
+      <span>n</span>
+      <span>g</span>
+      <span> </span>
+      <span>P</span>
+      <span>a</span>
+      <span>s</span>
+      <span>k</span>
+      <span>o</span>
+      <span> </span>
+      <span>H</span>
+      <span>U</span>
+      <span>H</span>
+      <span>U</span>
+      <span>H</span>
+      <span>U</span>
+      <span>!</span>
+    </div>
+
+    <h1>!</h1>
+    <p>PALITA GYUD NI, PARA MACOMPLETO AKONG PASKO!</p>
+    <p>Pamili lang asa ana CAP or CAR ACCESSORIES COMBO!
+    <!-- Product List -->
+    <div class="product">
+      <img src="https://images.vans.com/is/image/Vans/VN0A36IU_BLK_HERO?hei=1024&wid=1024&qlt=95" alt="Product 1">
+      <h3>DC Hat Black</h3>
+      <p>₱1,200</p>
+      <a href="https://www.lazada.com.ph/products/dc-slacker-cap-i4136461137-s23001223124.html?&search=pdp_v2v?spm=a2o4l.pdp_revamp.recommendation_2.1.196833c1XFDzjy&mp=1&scm=1007.16389.286994.0&clickTrackInfo=927af48d-92ad-4318-8622-607477d97023__4136461137__7283__trigger2i__287002__0.455__0.455__0.0__0.0__0.0__0.455__0__null__null__null__null__null__null____2290.0__0.5109170305676856__5.0__6__1120.0__380902,350671,525927,406460,539310,678908,440162,680100,389976,681897,722902,344601,347858,511855,537768,680886,525691,649019,406557,394503,387254,1468176,722324,1469300,413729,1469301,440351,719875,449858,526694,101718,680971,719891,454847,508863,508862,679139,349807,350829,679994,681801,681804,679078__null__null__null__3650.16504_955.3631__null__32104__null__0.0__0.0________null__null__0" class="btn">Buy Now</a>
+    </div>
+
+    <div class="product">
+      <img src="https://img.lazcdn.com/g/p/5f45117b28ee83a2e6777e17637b46aa.png_2200x2200q80.png_.webp" alt="Product 2">
+      <h3>Car Seat Cover Cushion (BLACK 1 SET)</h3>
+      <p>₱459.62</p>
+      <a href="https://www.lazada.com.ph/products/plush-car-seat-cover-cushion-anti-slip-universal-seat-breathable-pad-for-all-vehicles-car-front-and-rear-seat-i4398754142-s24719413140.html?" class="btn">Kani lang</a>
+    </div>
+
+    <div class="product">
+      <img src="https://img.lazcdn.com/g/ugc/46528aa060f240a4ba7a1c7afa40c731_382d33914d8e43c9854cdc993eb65ab6.jpg_500x500q80.jpg_.webp" alt="Product 3">
+      <h3>SEA METAL NECK & WAIST PILLOW (2 SET)</h3>
+      <p>₱375.06</p>
+      <a href="https://www.lazada.com.ph/products/seametal-memory-foam-car-neck-pillow-lumbar-back-support-protective-breathable-car-headrest-cushion-relieve-stress-car-seat-pillow-waist-i4401855087-s24737926647.html?" class="btn">PALITA KO</a>
+    </div>
+  </div>
+
+</body>
+</html>
